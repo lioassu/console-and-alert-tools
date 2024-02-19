@@ -3,6 +3,7 @@
   "displayName": "js-console-alert-tool",
   "description": "",
   "version": "0.0.1",
+  "publisher": "lioy",
   "engines": {
     "vscode": "^1.85.0"
   },
