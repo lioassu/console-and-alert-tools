@@ -2,7 +2,7 @@
   "name": "console-alert-tool",
   "displayName": "console and alert tools",
   "description": "",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "publisher": "lioy",
   "icon":"icon.webp",
   "engines": {
