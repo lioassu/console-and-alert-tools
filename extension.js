@@ -19,7 +19,7 @@ function activate(context) {
         const prefix = config.get('console-alert-tool.prefix', '');
         const suffix = config.get('console-alert-tool.suffix', '');
 
-        const logStatement = textString ? `console.log("${prefix}${textString}${suffix} ", ${textVariable});` : `console.log("${prefix}${suffix} ");`;
+        const logStatement = textString ? `console.log("${prefix}${textString}${suffix}", ${textVariable});` : `console.log("${prefix}${suffix}");`;
 
         const currentLine = editor.document.lineAt(selection.active.line);
         const isLineEmpty = !currentLine.text.trim(); //当前行是否为空
@@ -68,7 +68,7 @@ function activate(context) {
         const prefix = config.get('console-alert-tool.prefix', '');
         const suffix = config.get('console-alert-tool.suffix', '');
 
-        const alertStatement = textString ? `alert("${prefix}${textString}${suffix} "+JSON.stringify(${textVariable}));` : `alert("${prefix}${suffix} ");`;
+        const alertStatement = textString ? `alert("${prefix}${textString}${suffix}"+JSON.stringify(${textVariable}));` : `alert("${prefix}${suffix}");`;
         const currentLine = editor.document.lineAt(selection.active.line);
         const isLineEmpty = !currentLine.text.trim(); //当前行是否为空
         const indentation = currentLine.text.substring(0, currentLine.firstNonWhitespaceCharacterIndex); //获取当前行的缩进
@@ -100,7 +100,6 @@ function activate(context) {
 
 }
 
-// This method is called when your extension is deactivated
 function deactivate() { }
 
 module.exports = {

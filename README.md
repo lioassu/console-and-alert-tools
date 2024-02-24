@@ -5,8 +5,12 @@
 
 ## 使用
 
-![](https://luyyych.oss-cn-hangzhou.aliyuncs.com/obsidianPIC/202402191402616.gif)
-安装插件后，你可以使用以下快捷键在代码中快速插入 `console.log` 或 `alert` 语句：
+##### vscode settings.json 文件中添加以下配置：
+![](https://luyyych.oss-cn-hangzhou.aliyuncs.com/obsidianPIC/202402241225648.png)
+##### 功能展示:
+![](https://luyyych.oss-cn-hangzhou.aliyuncs.com/obsidianPIC/202402241224140.gif)
+
+##### 安装插件后，你可以使用以下快捷键在代码中快速插入 `console.log` 或 `alert` 语句：
 
 - `alt/option+L`：插入 `console.log` 语句。
 - `alt/option+K`：插入 `alert` 语句。
@@ -27,5 +31,5 @@
 
 - `console-alert-tool.prefix`：设置插入语句的前缀。
 - `console-alert-tool.suffix`：设置插入语句的后缀。
-![](https://luyyych.oss-cn-hangzhou.aliyuncs.com/obsidianPIC/202402191403395.png)
+- ![](https://luyyych.oss-cn-hangzhou.aliyuncs.com/obsidianPIC/202402241225648.png)
 
