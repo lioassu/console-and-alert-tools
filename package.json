@@ -2,7 +2,7 @@
   "name": "console-alert-tool",
   "displayName": "console and alert tools",
   "description": "",
-  "version": "0.0.7",
+  "version": "0.0.9",
   "publisher": "lioy",
   "icon":"icon.webp",
   "engines": {
@@ -11,6 +11,10 @@
   "categories": [
     "Other"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lioassu/console-and-alert-tools.git"
+  },
   "activationEvents": [],
   "main": "./extension.js",
   "contributes": {

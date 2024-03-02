@@ -2,6 +2,7 @@
 const vscode = require('vscode');
 
 function activate(context) {
+    // log
     let log = vscode.commands.registerCommand('extension.log', () => {
         const editor = vscode.window.activeTextEditor;
 
@@ -51,6 +52,7 @@ function activate(context) {
     });
     context.subscriptions.push(log);
 
+    //alert
     let alert = vscode.commands.registerCommand('extension.alert', () => {
         const editor = vscode.window.activeTextEditor;
 
